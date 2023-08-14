@@ -1,0 +1,14 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 2rem 0;
+}
+
+/* Adjust flex properties for PersonLeft and Bio if needed */
+.PersonLeft {
+  flex: 1;
+}
+
+.Bio {
+  flex: 1;
+}

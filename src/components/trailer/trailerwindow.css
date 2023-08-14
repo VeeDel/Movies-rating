@@ -1,0 +1,30 @@
+.trailer-keywords {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 1rem 0;
+  border-top: 2px solid #7e7e7e;
+  padding: 1rem 0;
+  color: #333;
+}
+
+.keyword-container {
+  display: inline-block;
+  margin: 0 1rem 0.5rem 0;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.keyword-container:last-child {
+  margin-left: 1rem; /* Remove margin on the last keyword to avoid extra space */
+}
+
+.keyword {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem;
+  border: 2px solid #d7d7d7;
+  border-radius: 5px;
+  background: #e6e6e6;
+  font-size: 10px;
+  font-weight: bold;
+}

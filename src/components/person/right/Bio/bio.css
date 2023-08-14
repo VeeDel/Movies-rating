@@ -1,0 +1,20 @@
+.bio {
+  text-align: start;
+  margin-left: 2rem;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+.bio:hover {
+  /* Increase box-shadow darkness and add pop effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+}
+.bio h2 {
+  border-bottom: #a5a5a5 solid 2px;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}

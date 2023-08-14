@@ -1,0 +1,71 @@
+.main-div {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+  display: flex;
+  align-items: flex-start; /* Adjust alignment as needed */
+  padding-right: 50px; /* Set padding to accommodate the glowing effect */
+  padding: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.cast {
+  position: relative;
+  width: 150px;
+  height: 250px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cast img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cast .cast-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cast .cast-details h5,
+.cast .cast-details p {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.cast .cast-details h5 {
+  font-weight: bold;
+}
+.viewMore {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.viewMore .right-arrow {
+  color: black;
+  width: 2rem;
+  margin-left: 5px; /* Adjust the margin as needed */
+}
+.viewMore:hover {
+  color: #666;
+}

@@ -1,0 +1,60 @@
+.person {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.person-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.web-link {
+  margin-left: 2px;
+  padding-left: 3px;
+  border-left: 2px solid lightgray;
+}
+.social-icon {
+  color: #333;
+  font-size: 23px;
+  margin: 0 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.person-details {
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+  text-align: start;
+  margin-left: 1rem;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.detail {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+h6 {
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
